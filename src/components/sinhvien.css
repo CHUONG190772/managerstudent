@@ -1,0 +1,134 @@
+/* Định dạng phần tiêu đề */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Định dạng phần form */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Định dạng phần button */
+  .btn {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-warning {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #d68910;
+  }
+  
+  /* Định dạng bảng */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #333;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Định dạng các button Edit và Delete */
+  .fa-pencil,
+  .btn-danger {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .fa-pencil {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .fa-pencil:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+  }
+/* CSS for the search container */
+.search-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* CSS for the search input and button */
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+  
